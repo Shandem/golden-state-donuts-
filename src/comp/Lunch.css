@@ -1,0 +1,21 @@
+.lunch-card-grid {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 50vh; /* 50% of the viewport height */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 12px;
+  background: #f8f8f8; /* optional */
+  padding: 16px 2vw;
+  box-sizing: border-box;
+}
+
+.lunch-card {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  height: 100%;
+}
